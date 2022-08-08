@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+---
+layout: home
+---
 
-You can use the [editor on GitHub](https://github.com/a-tofft/antontofft.com/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hello! :wave: I'm Anton, a network engineer with a background within the telecommunications industry and a passion for designing scalable networks and automating them. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Since finishing university, I've worked at multiple Service Providers in various roles, primarily doing design/maintenance. Projects have included standardization of configurations, BGP & IGP migrations, building up a SoT for IaC (Infrastructure as Code), designing a new monitoring system and much more. The last few years my main focus has been on automation and making networks/processes scale.
 
-### Markdown
+On this website you'll also find an Archive which contains selected notes from my "Second Brain" - A way of organizing your life and improving productivity. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When I'm not on the computer, I enjoy being outside in the nature and climbing. I also like riding two wheels and have undertaken 
+overland trips in Asia on a bicycle and through Africa on a motorcycle. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/a-tofft/antontofft.com/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
