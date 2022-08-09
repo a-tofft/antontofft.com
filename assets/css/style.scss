@@ -3,6 +3,8 @@
 ---
 
 $content-width: 60%;
+$code-background-color: #002B36;
+$code-font-color: #b7c7c9;
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
