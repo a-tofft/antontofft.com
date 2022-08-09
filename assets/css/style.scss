@@ -2,9 +2,68 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+/* Width of website */
 $content-width: 1150px;
+
+/* Code Blocks */
 $code-background-color: #002B36;
 $code-font-color: #b7c7c9;
+
+/* Spacing between Text */
+$spacing-unit: 15px;
+
+/**
+ * Codeblock.
+ */
+ pre.highlight {
+  padding: 12px 12px;
+  position: relative;
+
+  // override skeleton styles
+  > code {
+    border: 0;
+    overflow-x: auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  &.highlight {
+    color: #c1c2c3;
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+
+    &,
+    code {
+      background-color: $code-background-color;
+      font-size: 14px;
+    }
+  }
+
+  // copy code to clipboard
+  .copy {
+    color: $code-font-color;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+    opacity: 0;
+    font-size: 16px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: $code-background-color;
+      opacity: 1;
+    }
+  }
+
+  &:active .copy,
+  &:focus .copy,
+  &:hover .copy {
+    background: $code-background-color;
+    opacity: 1;
+  }
+}
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
