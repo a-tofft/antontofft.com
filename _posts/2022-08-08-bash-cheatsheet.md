@@ -60,6 +60,7 @@ SLIDES=${SLIDES// /_}
 # Variables Input 
 
 **Static:**
+
 - Names should be all upper case
 - Don't use any spaces 
 
@@ -68,6 +69,7 @@ HOSTNAME="rtr-bfa1.example.net"
 ```
 
 **Dynamic (Output from command):**
+
 ```bash 
 HOSTNAME=$(hostname)
 ```
@@ -85,12 +87,14 @@ echo "my name is ${NAME}!"
 ```
 
 # User Input
+
 ```bash 
 read -p "Enter a router hostname: " HOSTNAME
 echo "SSHing into ${HOSTNAME}"
 ```
 
-# Arrays 
+# Arrays
+
 ```bash 
 FILES=(router1 router2 router3)
 
@@ -146,6 +150,8 @@ ping -c 1 8.8.8.8 > /dev/null 2>&1
 
 ### If Statements
 - Variables should be enclosed in quotes
+
+
 ```bash
 HOSTNAME=$(hostname)
 
@@ -156,7 +162,8 @@ then
 fi
 ```
 
-### Else 
+### Else
+
 ```bash
 if [ condition-is-true ]
 then
@@ -166,7 +173,8 @@ else
 fi
 ```
 
-### Elif 
+### Elif
+
 ```bash
 if [ condition-is-true ]
 then
@@ -177,7 +185,8 @@ then
 fi
 ```
 
-### For Loop 
+### For Loop
+
 ```bash
 for LINE in FILE
 do
@@ -330,14 +339,16 @@ local HOST="LOCALHOST"
 
 ### Exit Status
 - Only 0-255 
-- By default the value of the last command run 
+- By default the value of the last command run
+
+
 ```bash 
 
 # Access exit code
 my_function 
 echo $?
 
-# Modify Exit COde
+# Modify Exit Code
 function my_function() {
     return 0
 }
