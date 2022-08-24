@@ -75,13 +75,13 @@ HOSTNAME=$(hostname)
 # Variables Output 
 
 ```bash 
-NAME="Anton"
+NAME="James"
 
 # Option 1
-echo "my name is $ANTON"
+echo "my name is $NAME"
 
 # Option 2 (useful if you have data right next to var)
-echo "my name is ${ANTON}!"
+echo "my name is ${NAME}!"
 ```
 
 # User Input
