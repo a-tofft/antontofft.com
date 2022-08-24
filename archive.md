@@ -4,6 +4,7 @@ title: ARCHIVE
 permalink: /archive/
 ---
 
+
 ## A Second Brain
 For more than 10 years, I have been documenting essentially everything in my life, from work related tasks, technologies to food recipes, Taxes, Entertainment and much more. This has allowed me to focus on being creative rather than memorizing unnecessary junk. Last year I found out about the concept of calling this a "Second Brain", a term coined by [Tiago Forte](https://www.buildingasecondbrain.com/). 
 
